@@ -81,9 +81,9 @@
 
     const build = "Build";
     const config = {
-      dataUrl: build + "/Web.data?v=31e5713f80e3",
-      frameworkUrl: build + "/Web.framework.js?v=31e5713f80e3",
-      codeUrl: build + "/Web.wasm?v=31e5713f80e3",
+      dataUrl: build + "/Web.data?v=4a711331fb15",
+      frameworkUrl: build + "/Web.framework.js?v=4a711331fb15",
+      codeUrl: build + "/Web.wasm?v=4a711331fb15",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Raid",
       productName: "Raid",
@@ -97,7 +97,7 @@
     }
 
     const loader = document.createElement("script");
-    loader.src = build + "/Web.loader.js?v=31e5713f80e3";
+    loader.src = build + "/Web.loader.js?v=4a711331fb15";
     loader.onerror = showError;
     loader.onload = () => {
       createUnityInstance(canvas, config, progress => {
