@@ -8,8 +8,18 @@ https://creativecommons.org/licenses/by/3.0/
 Excerpted, downmixed to mono, high-pass filtered, resampled, normalized and faded.
 Used as a reference game sound for the rifle. No endorsement is implied.
 
-Plaster001, Wood051 and Tiles074 color textures — ambientCG (CC0).
+Plaster001, Wood051 and Tiles074 textures — ambientCG (CC0).
 https://ambientcg.com/
+
+Interior models — Poly Haven contributors (CC0 1.0).
+Dining Table — Aron Łyczek, https://polyhaven.com/a/dining_table
+Dining Chair 02 — James Ray Cock, https://polyhaven.com/a/dining_chair_02
+Steel Frame Shelves 03 — Ulan Cabanilla, https://polyhaven.com/a/steel_frame_shelves_03
+Metal Office Desk — Ulan Cabanilla, https://polyhaven.com/a/metal_office_desk
+Modern Arm Chair 01 — Vibrant Nordic, https://polyhaven.com/a/modern_arm_chair_01
+Modern Ceiling Lamp 01 — James Ray Cock, https://polyhaven.com/a/modern_ceiling_lamp_01
+Potted Plant 02 — Rico Cilliers, https://polyhaven.com/a/potted_plant_02
+Model license: https://polyhaven.com/license
 
 Liberation Sans — Google Corporation and Red Hat, Inc. (SIL Open Font License 1.1).
 See Liberation-LICENSE.txt for copyright and license notices.
