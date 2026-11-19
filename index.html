@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1619">
+  <link rel="icon" href="data:,">
+  <title>Рейд</title>
+  <style>
+    html, body { height: 100%; margin: 0; background: #0b1619; }
+    body { overflow: hidden; color: #eff4f3; font: 16px system-ui, sans-serif; }
+    main { position: fixed; inset: env(safe-area-inset-top) env(safe-area-inset-right)
+      env(safe-area-inset-bottom) env(safe-area-inset-left); }
+    canvas { display: block; width: 100%; height: 100%; touch-action: none; outline: none; }
+    section { position: absolute; inset: 0; display: grid; place-content: center; gap: 16px;
+      padding: 24px; text-align: center; background: #0b1619; }
+    section[hidden], progress[hidden] { display: none; }
+    h1 { margin: 0; font-size: 2rem; }
+    p { margin: 0; max-width: 32rem; }
+    progress { width: min(320px, 70vw); justify-self: center; accent-color: #77b0ad; }
+    #portrait { display: none; }
+    @media (orientation: portrait) {
+      body[data-touch="true"] #portrait { display: grid; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <canvas id="raid" tabindex="0" aria-label="Рейд"></canvas>
+    <section id="loading">
+      <h1>Рейд</h1>
+      <p id="status" role="status">Загрузка эпизода…</p>
+      <progress id="progress" max="1" value="0" aria-label="Ход загрузки"></progress>
+    </section>
+    <section id="portrait"><p>Поверните телефон горизонтально</p></section>
+  </main>
+  <script>
+    const canvas = document.getElementById("raid");
+    const loading = document.getElementById("loading");
+    const status = document.getElementById("status");
+    const progressBar = document.getElementById("progress");
+    const touchControls = navigator.userAgentData?.mobile === true
+      || /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
+      || (navigator.maxTouchPoints > 0 && matchMedia("(pointer: coarse)").matches);
+    document.body.dataset.touch = String(touchControls);
+    canvas.dataset.touchControls = String(touchControls);
+    canvas.addEventListener("contextmenu", event => event.preventDefault());
+    canvas.addEventListener("keydown", event => {
+      if (event.key === "Tab") event.preventDefault();
+    });
+    canvas.addEventListener("mousedown", event => {
+      canvas.focus({ preventScroll: true });
+      if (touchControls || event.button !== 0 || !canvas.raidMayLockPointer
+        || document.pointerLockElement === canvas || !canvas.requestPointerLock) return;
+      event.stopImmediatePropagation();
+      try {
+        canvas.requestPointerLock()?.catch(error => console.warn(error));
+      } catch (error) {
+        console.warn(error);
+      }
+    }, true);
+    canvas.addEventListener("touchstart", () => canvas.focus({ preventScroll: true }), { passive: true });
+
+    const build = "Build";
+    const config = {
+      dataUrl: build + "/Web.data",
+      frameworkUrl: build + "/Web.framework.js",
+      codeUrl: build + "/Web.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "Raid",
+      productName: "Raid",
+      productVersion: "0.1.0",
+    };
+
+    function showError(error) {
+      status.textContent = "Не удалось загрузить эпизод. Обновите страницу.";
+      progressBar.hidden = true;
+      console.error(error);
+    }
+
+    const loader = document.createElement("script");
+    loader.src = build + "/Web.loader.js";
+    loader.onerror = showError;
+    loader.onload = () => {
+      createUnityInstance(canvas, config, progress => {
+        progressBar.value = progress;
+      }).then(() => {
+        loading.hidden = true;
+        if (!touchControls) canvas.focus({ preventScroll: true });
+      }).catch(showError);
+    };
+    document.body.appendChild(loader);
+  </script>
+</body>
+</html>

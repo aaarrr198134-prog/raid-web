@@ -1,0 +1,15 @@
+Gun Silencer shot — Sess8it, Freesound #532286 (CC0).
+https://freesound.org/people/Sess8it/sounds/532286/
+
+CZ-52 pistol report — Copyright (c) 2009 Vincent Sevedge (Tabasco).
+Source: https://opengameart.org/content/gunshot-sounds
+Licensed under Creative Commons Attribution 3.0 Unported.
+https://creativecommons.org/licenses/by/3.0/
+Excerpted, downmixed to mono, high-pass filtered, resampled, normalized and faded.
+Used as a reference game sound for the rifle. No endorsement is implied.
+
+Plaster001, Wood051 and Tiles074 color textures — ambientCG (CC0).
+https://ambientcg.com/
+
+Liberation Sans — Google Corporation and Red Hat, Inc. (SIL Open Font License 1.1).
+See Liberation-LICENSE.txt for copyright and license notices.
