@@ -1,12 +1,48 @@
-Gun Silencer shot — Sess8it, Freesound #532286 (CC0).
-https://freesound.org/people/Sess8it/sounds/532286/
+Game audio recordings edited for Raid. Ambience is stereo. Action
+excerpts were edited, downmixed to mono, filtered, resampled, leveled and faded.
+Sea and jungle were edited into loops.
 
-CZ-52 pistol report — Copyright (c) 2009 Vincent Sevedge (Tabasco).
-Source: https://opengameart.org/content/gunshot-sounds
-Licensed under Creative Commons Attribution 3.0 Unported.
+CC0 1.0 recordings (https://creativecommons.org/publicdomain/zero/1.0/)
+- Gun Silencer shot, Sess8it (Freesound 532286)
+  https://freesound.org/people/Sess8it/sounds/532286/
+- Free Firearm Sound Library, Ben Jaszczak, Brian Nelson, Kevin Heras and
+  Matthew Nanney. AK-47 C_28P/C_31P and Benelli Nova O_21P/O_17P reports.
+  https://opengameart.org/node/21826
+- Assault Rifle Manipulation 01.wav, GreenFireSound (Freesound 348157)
+  https://freesound.org/people/GreenFireSound/sounds/348157/
+- Shotgun Shell Load (recorded foley), Bratish (Freesound 500293)
+  https://freesound.org/people/Bratish/sounds/500293/
+- Shotgun pump, TotallyPhilip (Freesound 755495)
+  https://freesound.org/people/TotallyPhilip/sounds/755495/
+- Hiking Boot Footsteps on Grass, Fission9 (Freesound 521587)
+  https://freesound.org/people/Fission9/sounds/521587/
+- Fantozzi's Footsteps, Fantozzi. Stone and sand takes.
+  https://opengameart.org/content/fantozzis-footsteps-grasssand-stone
+- Different steps on wood, stone, leaves, gravel and mud, TinyWorlds.
+  Wood steps and leaves and mud foley.
+  https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud
+- Impact, qubodup. Stone, wood, metal and meat foley.
+  https://opengameart.org/content/impact
+- Concrete Hit, dslrguide (Freesound 321477)
+  https://freesound.org/people/dslrguide/sounds/321477/
+- S31-15 Shooting gallery; hitting metal targets, craigsmith (Freesound 675951)
+  https://freesound.org/people/craigsmith/sounds/675951/
+- Beach Ocean Waves, jasinski. Four excerpts edited by qubodup.
+  https://lpc.opengameart.org/content/beach-ocean-waves
+- Tambopata jungle ambience, alberto_cendra_woodman (Freesound 737513)
+  https://freesound.org/people/alberto_cendra_woodman/sounds/737513/
+
+Full Reload of a Pistol (Mixed), EvanBoyerman (Freesound 370251).
+https://freesound.org/people/EvanBoyerman/sounds/370251/
+Creative Commons Attribution 3.0 Unported. Three excerpts were trimmed,
+downmixed, filtered, resampled, leveled and faded. No endorsement is implied.
 https://creativecommons.org/licenses/by/3.0/
-Excerpted, downmixed to mono, high-pass filtered, resampled, normalized and faded.
-Used as a reference game sound for the rifle. No endorsement is implied.
+
+CZ-52 pistol report (legacy resource) — Copyright (c) 2009 Vincent Sevedge
+(Tabasco). Excerpted, downmixed to mono, high-pass filtered, resampled,
+normalized and faded. Creative Commons Attribution 3.0 Unported.
+https://opengameart.org/content/gunshot-sounds
+https://creativecommons.org/licenses/by/3.0/
 
 Plaster001, Wood051 and Tiles074 textures — ambientCG (CC0).
 https://ambientcg.com/
