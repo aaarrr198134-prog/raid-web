@@ -38,9 +38,9 @@ Creative Commons Attribution 3.0 Unported. Three excerpts were trimmed,
 downmixed, filtered, resampled, leveled and faded. No endorsement is implied.
 https://creativecommons.org/licenses/by/3.0/
 
-CZ-52 pistol report (legacy resource) — Copyright (c) 2009 Vincent Sevedge
+CZ-52 pistol report (source of the in-game pistol shot) — Copyright (c) 2009 Vincent Sevedge
 (Tabasco). Excerpted, downmixed to mono, high-pass filtered, resampled,
-normalized and faded. Creative Commons Attribution 3.0 Unported.
+normalized and faded. The game uses a shortened, low-pass filtered mix for the suppressed pistol. Creative Commons Attribution 3.0 Unported.
 https://opengameart.org/content/gunshot-sounds
 https://creativecommons.org/licenses/by/3.0/
 
